@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+.ust{
+    background: #163962;
+    background: linear-gradient(130deg, rgba(22, 57, 98, 1) 0%, rgba(14, 43, 77, 1) 100%);
+
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    top: 0px;
+    z-index: 2;
+}
+.menu{
+    margin-left: auto;
+}
+/* ANA MENÜ */
+.menu ul{
+    list-style: none;
+    display: flex;   
+}
+
+/* ANA MENÜ ELEMANLARI */
+.menu ul li{
+    position: relative;
+}
+
+/* ANA MENÜ LINKLERİ */
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* HOVER */
+.menu ul li a:hover{
+   color: #ffed00 ;
+}
+
+.menu ul li a:focus{
+   color: #ffed00;
+}
+
+/* ALT MENÜ */
+.menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    display: none;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+/* DONANIMLAR ÜZERİNE GELİNCE */
+.menu ul li:hover ul{
+    display: block;
+    box-shadow: -5px -5px 50px;
+}
+
+/* ALT MENÜ ELEMANLARI ALT ALTA */
+.menu ul li ul li{
+    width: 100%;
+}
+
+/* ALT MENÜ YAZILARI */
+.menu ul li ul li a{
+    font-size: 12pt;
+    padding: 10px;
+    background-color: #163962;
+    text-align: center;
+    
+}
+.icerik{
+    display: flex;          
+    align-items: flex-start;
+}
+.res{
+    float: left;
+    border-radius: 10px;
+    flex: 1;
+    margin-top:10px;
+    display: flex;          
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ekrankartları{
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 478px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-weight: 700;
+    box-shadow: 5px 5px 50px rgb(207, 207, 207);
+}
+.ekrankartları img{
+    margin: 50px;
+    transition: transform 0.3s ease;
+}
+.ekrankartları:hover img{
+    transform: scale(1.05);
+}
+.menu ul li a i{
+    font-size: 18px;
+}
+.menu ul li a:hover i{
+    color: rgb(177, 177, 177);
+}
+hr{
+    background-color: #163962;
+    margin-top: 20px;
+    height: 4px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nvidiamenu{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+.donanimreklam img{
+    width: 1550px;
+    margin-left: 85px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.nvidiareklam{
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 0px;
+    background-color:  rgb(240, 240, 240);
+}
+.nvidiareklam img{
+    width: 1550px;
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.nvidiareklam img:hover {
+    transform: scale(1.01);
+}
+.amdreklam{
+    margin-bottom: 200px;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 0px;
+    background-color:  rgb(240, 240, 240);
+}
+.amdreklam img{
+    width: 1550px;
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.amdreklam img:hover {
+    transform: scale(1.01);
+}
+.dmenu{
+    z-index: 1;
+    height: 100%;
+    width: 300px;
+    background-color:rgb(240, 240, 240);
+    margin-top: -20px;
+    font-size: 12pt;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.demnuuu{
+    z-index: 0;
+    height: 100%;
+    width: 260px;
+    display: flex;
+    align-items: flex-start;
+}
+.dmenu li a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    line-height: 60px;
+}
+.dmenu li:hover a{
+    color:#ffed00;
+}
+.sepeteekle{
+    box-shadow: 5px 5px 10px rgb(202, 202, 202);
+    margin-right: 20px;
+    border-radius: 10px;
+    float: right;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    color: white;
+    background-color: #163962;
+}
+.sepeteekle:hover{
+    background-color:#163962;
+    color:#ffed00;
+}
+u{
+    font-size: 20pt; 
+}
+.yazılar{
+    background-color: #ffffff;
+    margin-top: 100px;
+    width: 100%;
+    height: 40px;
+    font-size: 15pt;
+    font-weight: 900;
+    
+}
+.yazılar a{
+    text-decoration: none;
+    color: #163962;
+    margin-left: 20px;
+}
+b{
+    margin: 10px;   
+    text-transform: uppercase;
+}
+.ymenu{
+    margin-top: 70px;
+    width: 100%;
+    height: 60px;
+    background-color: #0f253f;
+}
+.ymenu ul{
+    display: flex;          
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ymenu ul li{
+    position: relative;     
+}
+.ymenu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 20px 20px;
+    display: block;
+    margin-left: 120px;
+}
+.ymenu li a:hover{
+    color:#ffed00;
+}
+.alt{
+    width: 100%;
+    height: 900px;
+    background-color: #163962;
+    margin-top: 20px;
+    background: linear-gradient(130deg, rgba(22, 57, 98, 1) 0%, rgba(14, 43, 77, 1) 100%);
+
+}
+.alt2{
+    width: 100%;
+    height: 200px;
+    background: #DCDCDC;
+    background: linear-gradient(125deg, rgba(220, 220, 220, 1) 0%, rgba(200, 200, 200, 1) 100%);
+    
+
+}
+.markalar {
+  display: flex;
+  gap: 65px;                /* aralık */
+  justify-content: center;  /* ortala */
+}
+#dikhr{
+    margin-left: 50px;
+    height: 500px;
+    float: right;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0px;
+    width: 2px;
+}
+#filtre{
+    height: 2px;
+    width: 130px;
+}
+
+
+
+
+/* İletişim ------------------------------------------------------------------------------- */
+.container{
+    display: flex;       
+    width: 100%;
+    height: 700px;          
+}
+
+.ustilt{
+    margin-top: 100px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+}
+.sol{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #f6f7f9;
+    box-shadow: 2px 2px 10px rgb(202, 202, 202);
+    
+}
+
+.sag{
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #163962;
+    color: white;
+}
+
+h2{margin: 10px; color: #163962;}
+#big{
+    
+    color: white;
+}
+/* Form ------------------------------------------------------------------------------- */
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.iletisim{
+    border: none;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.iletisim legend{
+    font-size: 24px;
+    font-weight: bold;
+    color: #163962;
+    padding-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.satir{
+    display: flex;
+    gap: 40px;
+}
+
+.alan{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.alan.tam{
+    width: 100%;
+}
+
+label{
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+input,
+textarea{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus,
+textarea:focus{
+    border-bottom-color: #2c3e90;
+}
+
+textarea{
+    min-height: 120px;
+    resize: none;
+}
+
+button{
+    width: 140px;
+    background-color:#163962;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(9, 0, 59);
+}
+p{
+    margin: 10px;  
+}
+.pust{
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 25px;
+}
+.porta{
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 25px;
+}
+.pson{
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 25px;
+}
+#donanimarlkolayerisim{
+    color: black;
+    text-decoration: none;
+}
+.deneme{
+    font-size: 15pt;
+    margin-left: 100px;
+
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.deneme a{
+    text-decoration: none;
+    margin-top: 30px;
+    color: #163a64;
+}
+
+
+
+
+
+
+
+
+
+

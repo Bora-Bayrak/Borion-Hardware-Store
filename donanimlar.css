@@ -1,0 +1,85 @@
+.ekrankartları{
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 370px;
+    height: 478px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    box-shadow: 5px 5px 50px rgb(207, 207, 207);
+}
+.res{
+    float: left;
+    border-radius: 10px;
+    flex: 1;
+    margin-top:10px;
+    display: flex;          
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px
+}
+.nvidiareklam {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 0px;
+    background-color:  rgb(240, 240, 240);
+}
+
+.nvidiareklam img {
+    width: 1550px;
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute; 
+    top: 80px;
+    left: 150px;
+}
+.img1 {
+    animation: fade1 8s infinite;
+}
+
+.img2 {
+    animation: fade2 8s infinite;
+}
+@keyframes fade1 {
+    0%   { opacity: 1; z-index: 0;}
+    20%  { opacity: 1; z-index: 0;}
+    40%  { opacity: 1; z-index: 0;}   
+    60%  { opacity: 0; z-index: 1;}   
+    80%  { opacity: 0; z-index: 1;}
+    100% { opacity: 1; z-index: 0;}
+}
+
+@keyframes fade2 {
+    0%   { opacity: 0; z-index: 1;}
+    20%  { opacity: 0; z-index: 1;}
+    40%  { opacity: 1; z-index: 0;}   
+    60%  { opacity: 1; z-index: 0;}
+    80%  { opacity: 1; z-index: 0;}
+    100% { opacity: 0; z-index: 1;}
+}
+
+.amdreklam {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 0px;
+    background-color:  rgb(240, 240, 240);
+}
+
+.amdreklam img {
+    width: 1550px;
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute; 
+    top: 80px;
+    left: 150px;
+}

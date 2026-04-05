@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borion</title>
+    <link rel="icon" href="Resimler/logo.png">
+    <link rel="stylesheet" href="proje.css">
+    <link rel="stylesheet" href="donanimlar.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="ust">
+        <a href="index.html"><img src="Resimler/logo.png"width=100px ></a>
+        <div class="menu">
+        <ul>    
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="iletisim.html">İLETİŞİM</a></li>
+            <li><a href="donanimlar.html">DONANIMLAR</a>
+            <ul>
+                <li><a href="ekrankartları.html">EKRAN KARTI</a></li>
+                <li><a href="islemci.html">İŞLEMCİ</a></li>
+                <li><a href="ram.html">RAM</a></li>
+                <li><a href="anakart.html">ANAKART</a></li>
+                <li><a href="psu.html">PSU</a></li>
+                <li><a href="kasa.html">KASA</a></li>
+                <li><a href="ssd.html">SSD</a></li>
+                <li><a href="fan.html">FAN</a></li>
+            </ul>
+            </li>
+            <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+            <li><a href="#" onclick="gosterSepet(); return false;" style="position: relative;">SEPET
+                <span class="sepet-sayaci" style="position: absolute; top: -5px; right: -10px; background-color: #ff0000; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold;">0</span>
+            </a></li>
+            <li><a href="#" onclick="hesapMenuAc(); return false;" style="position: relative; margin-left: 10px;">HESAP
+                <span id="kullanici-ad" style="position: absolute; bottom: -15px; left: 0; right: 0; text-align: center; font-size: 10px; color: #ffed00; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">Giriş Yap</span>
+            </a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="nvidiamenu">
+    <div class="dmenu">
+        <ul>
+            <li><a href="ekrankartları.html">EkranKartları</a></li>
+            <li><a href="islemci.html">İşlemci</a> </li>
+            <li><a href="anakart.html">Anakart</a></li>
+            <li><a href="ram.html">Ram</a></li>
+            <li><a href="ssd.html">Ssd</a></li>
+            <li><a href="psu.html">Powersupply</a></li>
+            <li><a href="fan.html">Fan</a></li>
+            <li><a href="kasa.html">Kasa</a></li>
+        </ul>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >CORSAIR <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >GSKILL <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >KINGSTON <br>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >32 GB <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >16 GB <br>  
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >8 GB <br>
+        <hr id="filtre">
+    </div>
+    <hr id="dikhr"style="height:1900px;width: 2px;">
+    <div class="dmenuuu">
+    <div class="dmenuu">
+    
+    <div><hr id="dikhr"></div>
+    <div class="nvidiareklam"><a href="https://www.kingston.com/tr/memory"target="_blank"><img src="Resimler/uzantılar/ram-reklam.png" class="img img1"></a></div>
+    <div class="nvidiareklam"><a href="https://www.gskill.com/"target="_blank"><img src="Resimler/uzantılar/ram2-reklam.jpg" class="img img2"></a></div>
+</div>
+    <div class="icerik">
+    <div class="res">
+        <div class="ekrankartları"><img src="Resimler/Ram/corsair/16gb/Vengeance 1.png"width="220px" height="220"> <br><br> CORSAIR 16GB Vengeance RGB 6000MHz CL36 DDR5 XMP/EXPO Siyah Single Kit Ram  <br><br><br> <b> 9.499,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ram/corsair/32gb/Vengeance 1.png"width="220px" height="220"> <br><br> CORSAIR 32GB Vengeance 5600MHz CL40 DDR5 XMP/EXPO Single Kit Ram  <br><br><br> <b> 19.217,00 tl</b><div class="sepeteekle">Sepete Ekle</div></div> 
+        <div class="ekrankartları"><img src="Resimler/Ram/corsair/8gb/Vengeance 1.jpg"width="220px" height="220"> <br><br>  CORSAIR 16GB(2x8GB) Vengeance PRO SL Siyah 3200MHz CL16 DDR4 Dual Kit Ram <br><br><br> <b> 8.399,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ram/gskill/16gb/Flare X5 1.png"width="220px" height="220"> <br><br>   GSKILL Flare X5 16GB DDR5 6000Mhz CL36 EXPO/XMP Single Kit Kutusuz Ram <br><br><br> <b> 9.405,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ram/gskill/32gb/Trident Z5 Royal 1.png"width="220px" height="220"> <br><br>GSKILL 32GB (2x16GB) Trident Z5 Royal DDR5 6400Mhz CL30 XMP Dual Kit Ram  <br><br><br> <b> 29.559,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ram/gskill/8gb/Ripjaws V 1.png"width="220px" height="220"> <br><br>  GSKILL 8GB Ripjaws V Siyah 3200MHz CL16 DDR4 Single Kit Ram <br><br><br> <b> 2.639,00 tl </b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ram/kingston/16gb/Beast 1.png"width="220px" height="220"> <br><br>  Kingston 16GB Beast EXPO 6000MHz CL30 DDR5 Single Kit Ram <br><br><br> <b> 9.405,89 tl </b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ram/kingston/32gb/Beast 1.png"width="220px" height="220"> <br><br> Kingston 32GB Beast EXPO 6000MHz CL36 DDR5 Single Kit Ram  <br><br><br> <b> 19.723,13 tl </b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ram/kingston/8gb/Beast 1.png"width="220px" height="220"> <br><br>  Kingston 8GB Beast EXPO 5600MHz CL36 DDR5 Single Kit Ram <br><br><br> <b> 5.249,00 tl </b> <div class="sepeteekle">Sepete Ekle</div></div>
+        </div>
+    </div></div></div>
+    <hr>
+ <div class="alt">
+        <div class="alt2"></div>
+        <div class="markalar">
+            <div><img src="Resimler/Marka logoları/asus.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/amd.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/corsair.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/gigabyte.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/intel.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/Kingston.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/msı.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/NVIDIA.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/samsung.png" height="100px"></div>
+        </div>
+        <hr style="background-color: #ffed00; height: 3px; border: #ffed00;">
+    </div>
+</body>
+</html>

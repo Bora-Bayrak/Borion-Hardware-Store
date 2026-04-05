@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borion</title>
+    <link rel="icon" href="Resimler/logo.png">
+    <link rel="stylesheet" href="proje.css">
+    <link rel="stylesheet" href="donanimlar.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="ust">
+        <a href="index.html"><img src="Resimler/logo.png"width=100px ></a>
+        <div class="menu">
+        <ul>    
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="iletisim.html">İLETİŞİM</a></li>
+            <li><a href="donanimlar.html">DONANIMLAR</a>
+            <ul>
+                <li><a href="ekrankartları.html">EKRAN KARTI</a></li>
+                <li><a href="islemci.html">İŞLEMCİ</a></li>
+                <li><a href="ram.html">RAM</a></li>
+                <li><a href="anakart.html">ANAKART</a></li>
+                <li><a href="psu.html">PSU</a></li>
+                <li><a href="kasa.html">KASA</a></li>
+                <li><a href="ssd.html">SSD</a></li>
+                <li><a href="fan.html">FAN</a></li>
+            </ul>
+            </li>
+            <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+            <li><a href="#" onclick="gosterSepet(); return false;" style="position: relative;">SEPET
+                <span class="sepet-sayaci" style="position: absolute; top: -5px; right: -10px; background-color: #ff0000; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold;">0</span>
+            </a></li>
+            <li><a href="#" onclick="hesapMenuAc(); return false;" style="position: relative; margin-left: 10px;">HESAP
+                <span id="kullanici-ad" style="position: absolute; bottom: -15px; left: 0; right: 0; text-align: center; font-size: 10px; color: #ffed00; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">Giriş Yap</span>
+            </a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="nvidiamenu">
+    <div class="dmenu">
+        <ul>
+            <li><a href="ekrankartları.html">EkranKartları</a></li>
+            <li><a href="islemci.html">İşlemci</a> </li>
+            <li><a href="anakart.html">Anakart</a></li>
+            <li><a href="ram.html">Ram</a></li>
+            <li><a href="ssd.html">Ssd</a></li>
+            <li><a href="psu.html">Powersupply</a></li>
+            <li><a href="fan.html">Fan</a></li>
+            <li><a href="kasa.html">Kasa</a></li>
+        </ul>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >CORSAIR <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >ASUS <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >GIGABYTE <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >MSI <br>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >1200 W <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >1000 W <br>  
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >850 W <br>  
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >650 W <br>
+        <hr id="filtre">
+    </div>
+    <hr id="dikhr"style="height:2400px;">
+    <div class="dmenuuu">
+    <div class="dmenuu">
+    
+    <div><hr id="dikhr"></div>
+    <div class="amdreklam"><a href="https://www.gigabyte.com/tr/Power-Supply"target="_blank"><img src="Resimler/uzantılar/psu-reklam.png"></a></div>
+
+</div>
+    <div class="icerik">
+    <div class="res">
+        <div class="ekrankartları"><img src="Resimler/Psu/asus/1000 w/1000P2 v2 1.png"width="220px" height="220"> <br><br>ASUS THOR 1000P2 v2 1000W 80+ Platinum Full Modüler 135mm Fanlı ATX PSU  <br><br><br> <b>16.589,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/asus/1200 w/ROG STRIX 1.jpg"width="220px" height="220"> <br><br>ASUS ROG STRIX 1200W 80+ Gold AURA ATX3.0 PCIe5.0 Full Modüler 135mm Fanlı PSU  <br><br><br> <b> 11.679,00 tl</b><div class="sepeteekle">Sepete Ekle</div></div> 
+        <div class="ekrankartları"><img src="Resimler/Psu/asus/850 w/850G 1.png"width="220px" height="220"> <br><br> ASUS TUF GAMING 850G 850W 80+ Gold ATX 3.1 120mm Fanlı PSU <br><br><br> <b> 7.699.00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/corsair/1000 w/RM1000e 1.png"width="220px" height="220"> <br><br>CORSAIR RM1000e 1000W 80+ Gold 140mm ATX 3.1 Full Modüler Fanlı PSU  <br><br><br> <b>8.999,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/corsair/1200 w/RM1200e 1.png"width="220px" height="220"> <br><br>CORSAIR RM1200e 1200W 80+ Gold 140mm ATX 3.1 Full Modüler Fanlı PSU  <br><br><br> <b>9.999,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/corsair/650 w/CX650F 1.png"width="220px" height="220"> <br><br>CORSAIR CX650F RGB 650W 80+ Bronze Beyaz Full Modüler 120mm Fanlı PSU <br><br><br> <b>4.459,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/corsair/850 w/RM850e 1.png"width="220px" height="220"> <br><br>CORSAIR RM850e 850W 80+ Gold 140mm ATX 3.1 Full Modüler Fanlı PSU <br><br><br> <b>6.599,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/giabyte/1000 w/AORUS 1.png"width="220px" height="220"> <br><br>  GIGABYTE AORUS ELITE 1000W 80+ Platinum Gen 5.0 ATX 3.1 Full Modüler 120mm Fanlı Beyaz PSU <br><br><br> <b>18.416,56 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/giabyte/850 w/UD850GM 1.png"width="220px" height="220"> <br><br>GIGABYTE UD850GM PG5 850W 80+ Gold Gen 5.0 ATX 3.0 Full Modüler PSU <br><br><br> <b>7.267,77 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/msı/1000 w/A1000GS 1.png"width="220px" height="220"> <br><br> MSI MPG A1000GS 1000W 80+ Gold GEN 5.1 ATX 3.1 Full Modüler 135mm Fanlı PSU  <br><br><br> <b>11.549,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/msı/1200 w/A1250GL 1.png"width="220px" height="220"> <br><br>MSI MAG A1250GL 1200W 80+ Gold GEN 5.1 ATX 3.1 135mm Fanlı PSU   <br><br><br> <b>12.566,40 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/msı/650 w/A650BN 1.png"width="220px" height="220"> <br><br>  MSI MAG A650BN 650W 80+ Bronze 120mm PSU <br><br><br> <b>3.419</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Psu/msı/850 w/A850GS 1.png"width="220px" height="220"> <br><br> MSI MPG A850GS 850W 80+ Gold Plus GEN 5.1 ATX 3.1 135mm Fanlı PSU  <br><br><br> <b>9.028,80 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        
+        </div>
+    </div></div></div>
+    <hr>
+ <div class="alt">
+        <div class="alt2"></div>
+        <div class="markalar">
+            <div><img src="Resimler/Marka logoları/asus.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/amd.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/corsair.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/gigabyte.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/intel.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/Kingston.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/msı.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/NVIDIA.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/samsung.png" height="100px"></div>
+        </div>
+        <hr style="background-color: #ffed00; height: 3px; border: #ffed00;">
+    </div>
+</body>
+</html>

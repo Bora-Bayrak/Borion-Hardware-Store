@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCora</title>
+    <link rel="icon" href="Resimler/logo.png">
+    <link rel="stylesheet" href="proje.css">
+</head>
+<body>
+    <div class="ust">
+        <a href="index.html"><img src="Resimler/logo.png"width=100px ></a>
+        <div class="menu">
+        <ul>    
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="iletisim.html">İLETİŞİM</a></li>
+            <li><a href="donanimlar.html">DONANIMLAR</a>
+            <ul>
+                <li><a href="ekrankartları.html">EKRAN KARTI</a></li>
+                <li><a href="islemci.html">İŞLEMCİ</a></li>
+                <li><a href="ram.html">RAM</a></li>
+                <li><a href="anakart.html">ANAKART</a></li>
+                <li><a href="psu.html">PSU</a></li>
+                <li><a href="kasa.html">KASA</a></li>
+                <li><a href="ssd.html">SSD</a></li>
+                <li><a href="fan.html">FAN</a></li>
+            </ul>
+            </li>
+            <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+            <li><a href="#" onclick="gosterSepet(); return false;" style="position: relative; margin-left: 10px;">SEPET
+                <span class="sepet-sayaci" style="position: absolute; top: -5px; right: -10px; background-color: #ff0000; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold;">0</span>
+            </a></li>
+            <li><a href="#" onclick="hesapMenuAc(); return false;" style="position: relative; margin-left: 10px;">HESAP
+                <span id="kullanici-ad" style="position: absolute; bottom: -15px; left: 0; right: 0; text-align: center; font-size: 10px; color: #ffed00; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">Giriş Yap</span>
+            </a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="ustilt"><h2>İletişim</h2></div>
+    <div class="container">
+    <div class="sol">
+        <fieldset class="iletisim">
+    <legend>Bize Ulaşın</legend>
+
+    <form onsubmit="return false;">
+        <div class="satir">
+            <div class="alan">
+                <label>İsim Soyisim *</label>
+                <input type="text" placeholder="Adınız" required>
+            </div>
+
+            <div class="alan">
+                <label>E-Posta *</label>
+                <input type="email" placeholder="E-Posta Adresiniz" required>
+            </div>
+        </div>
+
+        <div class="satir">
+            <div class="alan">
+                <label>Telefon</label>
+                <input type="tel" placeholder="Telefon">
+            </div>
+        </div>
+
+        <div class="satir">
+            <div class="alan tam">
+                <label>Mesajınız *</label>
+                <textarea placeholder="Mesajınızı Yazınız" required></textarea>
+            </div>
+        </div>
+        <button type="button" onclick="gonder();">Gönder</button>
+    </form>
+</fieldset>
+
+    </div>
+    <div class="sag"><h2 id="big">Bizimle İletişime Geçin</h2>
+
+<p class="pust">Sorularınız, önerileriniz veya teknik destek
+     talepleriniz için bizimle dilediğiniz zaman 
+     iletişime geçebilirsiniz.
+Alanında uzman ekibimiz, mesajlarınıza 
+en kısa sürede dönüş yapacaktır.
+</p><br><br><p class="porta">
+📧 E-posta: info@pcora.com <br>
+📞 Telefon: +90 5XX XXX XX XX <br>
+🕒 Çalışma Saatleri:
+Hafta içi 09:00 – 18:00 <br>
+</p>
+<br><br>
+<p class="pson">
+Göndermiş olduğunuz bilgiler yalnızca sizinle iletişime geçmek amacıyla kullanılacak olup, 3. kişilerle paylaşılmaz.</div>
+ </p>   </div>
+ <hr>
+ <div class="alt">
+        <div class="alt2"></div>
+        <div class="markalar">
+            <div><img src="Resimler/Marka logoları/asus.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/amd.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/corsair.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/gigabyte.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/intel.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/Kingston.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/msı.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/NVIDIA.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/samsung.png" height="100px"></div>
+        </div>
+        <hr style="background-color: #ffed00; height: 3px; border: #ffed00;">
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

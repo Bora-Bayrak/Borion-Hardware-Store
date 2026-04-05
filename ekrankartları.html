@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borion</title>
+    <link rel="icon" href="Resimler/logo.png">
+    <link rel="stylesheet" href="proje.css">
+    <link rel="stylesheet" href="donanimlar.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="ust">
+        <a href="index.html"><img src="Resimler/logo.png"width=100px ></a>
+        <div class="menu">
+        <ul>    
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="iletisim.html">İLETİŞİM</a></li>
+            <li><a href="donanimlar.html">DONANIMLAR</a>
+            <ul>
+                <li><a href="ekrankartları.html">EKRAN KARTI</a></li>
+                <li><a href="islemci.html">İŞLEMCİ</a></li>
+                <li><a href="ram.html">RAM</a></li>
+                <li><a href="anakart.html">ANAKART</a></li>
+                <li><a href="">PSU</a></li>
+                <li><a href="">KASA</a></li>
+                <li><a href="">SSD</a></li>
+                <li><a href="">FAN</a></li>
+            </ul>
+            </li>
+            <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+            <li><a href="#" onclick="gosterSepet(); return false;" style="position: relative;">SEPET
+                <span class="sepet-sayaci" style="position: absolute; top: -5px; right: -10px; background-color: #ff0000; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold;">0</span>
+            </a></li>
+            <li><a href="#" onclick="hesapMenuAc(); return false;" style="position: relative; margin-left: 10px;">HESAP
+                <span id="kullanici-ad" style="position: absolute; bottom: -15px; left: 0; right: 0; text-align: center; font-size: 10px; color: #ffed00; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">Giriş Yap</span>
+            </a></li>
+        </ul>
+        
+        </div>
+    </div>
+    <div class="nvidiamenu">
+    <div class="dmenu">
+        <ul>
+            <li><a href="ekrankartları.html">EkranKartları</a></li>
+            <li><a href="islemci.html">İşlemci</a> </li>
+            <li><a href="anakart.html">Anakart</a></li>
+            <li><a href="ram.html">Ram</a></li>
+            <li><a href="">Ssd</a></li>
+            <li><a href="">Powersupply</a></li>
+            <li><a href="">Fan</a></li>
+            <li><a href="">Kasa</a></li>
+        </ul>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >Asus <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >GIGABYTE <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >MSI <br>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >AMD <br> 
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >NVIDIA <br>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >RTX 5090 <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RTX 5080 <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RTX 5070 ti <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RTX 5070 <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RTX 5060 ti <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RTX 5060 <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RX 9070 xt<br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RX 9070 <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >RX 9060 xt<br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >RX 9060 <br>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >32 GB <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >16 GB <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >12 GB <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >8 GB <br>
+        <hr id="filtre">
+    </div>
+    <hr id="dikhr"style="height:3800px;">
+    <div class="dmenuuu">
+    <div class="dmenuu">
+    
+    <div><hr id="dikhr"></div>
+    <div class="nvidiareklam"><a href="https://www.nvidia.com/tr-tr/geforce/graphics-cards/50-series/"target="_blank"><img src="Resimler/uzantılar/amd-reklam.png" class="img img1"></a></div>
+    <div class="nvidiareklam"><a href="https://www.amd.com/en.html"target="_blank"><img src="Resimler/uzantılar/nvidia-reklam.png" class="img img2"></a></div>
+</div>
+    <div class="icerik">
+    <div class="res">
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5050/Asus/Prime/asus prime 5050 1.png"width="220px" height="220"> <br><br>ASUS PRIME GeForce RTX 5050 OC Edition 8GB GDDR6 DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>17.299,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5050/Gigabyte/gigabyte 5050 1.png"width="220px" height="220"> <br><br>GIGABYTE GeForce RTX 5050 WINDFORCE OC 8G GDDR6 DLSS 4 128 Bit Ekran Kartı<br><br><br> <b>14.666,66 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5050/MSI/Ventus/msı ventus 5050 1.png"width="220px" height="220"> <br><br>MSI GeForce RTX 5050 8G VENTUS 2X OC GDDR6 8GB DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>14.499,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5060 ti/Asus/Prime/asus prime5060 ti 1.png"width="220px" height="220"> <br><br>ASUS PRIME GeForce RTX 5060 Ti 16GB GDDR7 OC DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>34.217,55 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5060 ti/Gigabyte/Aorus/gigabyte aorus 5060 ti 1.png"width="220px" height="220"> <br><br>GIGABYTE AORUS GeForce RTX 5060 Ti ELITE 16G GDDR7 DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>30.999,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5060 ti/MSI/Gaming trio/msı trio 5060 ti 1.png"width="220px" height="220"> <br><br>MSI GeForce RTX 5060 Ti 16G GAMING TRIO GDDR7 DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>32.572,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5060/Asus/Prime/asus prime 5060 1.png"width="220px" height="220"> <br><br>ASUS PRIME GeForce RTX 5060 OC Edition 8GB GDDR7 DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>19.249,29 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5060/Gigabyte/Aero/gigabyte aero 5060 1.png"width="220px" height="220"> <br><br>GIGABYTE GeForce RTX 5060 AERO OC 8G GDDR7 DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>19.289,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5060/MSI/Ventus/msı ventus 5060 1.png"width="220px" height="220"> <br><br>MSI GeForce RTX 5060 8G VENTUS 3X OC GDDR7 DLSS 4 128 Bit Ekran Kartı <br><br><br> <b>20.832,67 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5070 ti/Asus/Rog/asus rog 5070 ti 1.png"width="220px" height="220"> <br><br>ASUS TUF Gaming GeForce RTX 5070 Ti OC Edition 16GB GDDR7 DLSS 4 256 Bit Ekran Kartı <br><br><br> <b>62.557,11 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5070 ti/Gigabyte/Aorus/gigabyte aorus 5070 ti 1.png"width="220px" height="220"> <br><br>GIGABYTE AORUS GeForce RTX 5070 Ti MASTER 16G GDDR7 DLSS 4 256 Bit Ekran Kartı <br><br><br> <b>64.157,11 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5070 ti/MSI/Gaming trio/msı trio 5070 ti 1.png"width="220px" height="220"> <br><br>MSI GeForce RTX 5070 Ti 16G GAMING TRIO OC PLUS GDDR7 DLSS 4 256 Bit Ekran Kartı <br><br><br> <b>58.986,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5070/Gigabyte/gigabyte 5070 1.png"width="220px" height="220"> <br><br>GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF 12G GDDR7 DLSS 4 192 Bit Ekran Kartı <br><br><br> <b>34.799,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5070/MSI/Gaming trio/msı trio 5070 1.png"width="220px" height="220"> <br><br>MSI GeForce RTX 5070 12G GAMING TRIO OC GDDR7 DLSS 4 192 Bit Ekran Kartı <br><br><br> <b> 40.409,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5080/Asus/Rog/asus rog 5080 beyaz1.png"width="220px" height="220"> <br><br>ASUS ROG Astral GeForce RTX 5080 16GB WHITE OC Edition GDDR7 DLSS 4 256 Bit Ekran Kartı <br><br><br> <b>110.999,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5080/Gigabyte/Aorus/gigabyte aorus 5080 beyaz1.png"width="220px" height="220"> <br><br>GIGABYTE GeForce RTX 5080 AORUS MASTER ICE 16G GDDR7 DLSS 4 256 Bit Ekran Kartı <br><br><br> <b>99.999,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5080/MSI/Suprim/msı suprim 5080 1.png"width="220px" height="220"> <br><br>MSI GeForce RTX 5080 16G SUPRIM SOC 16GB GDDR7 DLSS 4 256 Bit Ekran Kartı <br><br><br> <b>96.798,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5090/Asus/ROG/asus rog 5090 siyah1.png"width="220px" height="220"> <br><br>ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition DLSS 4 512 Bit Ekran Kartı <br><br><br> <b>170.430,92 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5090/Gigabyte/Aorus/gigabyte aorus 5090 beyaz1.png"width="220px" height="220"> <br><br>GIGABYTE AORUS GeForce RTX 5090 MASTER ICE 32G GDDR7 DLSS 4 512 Bit Ekran Kartı <br><br><br> <b>159.000,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Nvidia/5090/MSI/Suprim/msı suprim 5090 1.png"width="220px" height="220"> <br><br>MSI GeForce RTX 5090 32G SUPRIM SOC 32GB GDDR7 DLSS 4 512 Bit Ekran Kartı <br><br><br> <b>155.519,04 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Amd/9060 XT/Asus/Prime/asus prime 9060 xt 1.png"width="220px" height="220"> <br><br>ASUS Prime Radeon RX 9060 XT OC Edition 16GB GDDR6 128 Bit Ekran Kartı <br><br><br> <b>24.695,00 tl</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Amd/9060 XT/Gigabyte/gigabyte 9060 xt 1.png"width="220px" height="220"> <br><br>GIGABYTE Radeon RX 9060 XT GAMING 16GB GDDR6 128 Bit Ekran Kartı <br><br><br> <b>18.899,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Amd/9060/Asus/Prime/asus prime 9060 1.png"width="220px" height="220"> <br><br>ASUS DUAL Radeon RX 9060 OC Edititon 8GB GDDR6 128 Bit Ekran Kartı <br><br><br> <b>17.831,63 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Amd/9070 XT/Asus/Tuf/asus tuf 9070 xt 1.png"width="220px" height="220"> <br><br>ASUS TUF Gaming Radeon RX 9070 xt OC Edition 16GB GDDR6 256 Bit Ekran Kartı <br><br><br> <b>44.381,39 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Amd/9070 XT/Gigabyte/Aorus/gigabyte aorus 9070 xt 1.png"width="220px" height="220"> <br><br>GIGABYTE Radeon RX 9070 XT AORUS ELITE 16GB GDDR6 256 Bit RGB LED Ekran Kartı<br><br><br> <b>39.499,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Amd/9070/Asus/Prime/asus prime 9070 1.png"width="220px" height="220"> <br><br>ASUS Prime Radeon RX 9070 XT OC Edition 16GB GDDR6 256 Bit Ekran Kartı <br><br><br> <b>38.478,38 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Ekran Kartları/Amd/9070/Gigabyte/gigabyte 9070  1.png"width="220px" height="220"> <br><br>GIGABYTE Radeon RX 9070 GAMING OC 16GB GDDR6 256 Bit RGB LED Ekran Kartı<br><br><br> <b>29.999,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        </div>
+    </div></div></div>
+    <hr>
+ <div class="alt">
+        <div class="alt2"></div>
+        <div class="markalar">
+            <div><img src="Resimler/Marka logoları/asus.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/amd.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/corsair.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/gigabyte.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/intel.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/Kingston.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/msı.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/NVIDIA.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/samsung.png" height="100px"></div>
+        </div>
+        <hr style="background-color: #ffed00; height: 3px; border: #ffed00;">
+    </div>
+</body>
+</html>

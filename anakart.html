@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borion</title>
+    <link rel="icon" href="Resimler/logo.png">
+    <link rel="stylesheet" href="proje.css">
+    <link rel="stylesheet" href="donanimlar.css">
+    <script src="js/main.js"></script>
+    <script src="js/filter.js"></script>
+</head>
+<body>
+    <div class="ust">
+        <a href="index.html"><img src="Resimler/logo.png"width=100px ></a>
+        <div class="menu">
+        <ul>    
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="iletisim.html">İLETİŞİM</a></li>
+            <li><a href="donanimlar.html">DONANIMLAR</a>
+            <ul>
+                <li><a href="ekrankartları.html">EKRAN KARTI</a></li>
+                <li><a href="islemci.html">İŞLEMCİ</a></li>
+                <li><a href="ram.html">RAM</a></li>
+                <li><a href="anakart.html">ANAKART</a></li>
+                <li><a href="psu.html">PSU</a></li>
+                <li><a href="kasa.html">KASA</a></li>
+                <li><a href="ssd.html">SSD</a></li>
+                <li><a href="fan.html">FAN</a></li>
+            </ul>
+            </li>
+            <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+            <li><a href="#" onclick="gosterSepet(); return false;" style="position: relative;">SEPET
+                <span class="sepet-sayaci" style="position: absolute; top: -5px; right: -10px; background-color: #ff0000; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold;">0</span>
+            </a></li>
+            <li><a href="#" onclick="hesapMenuAc(); return false;" style="position: relative; margin-left: 10px;">HESAP
+                <span id="kullanici-ad" style="position: absolute; bottom: -15px; left: 0; right: 0; text-align: center; font-size: 10px; color: #ffed00; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">Giriş Yap</span>
+            </a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="nvidiamenu">
+    <div class="dmenu">
+        <ul>
+            <li><a href="ekrankartları.html">EkranKartları</a></li>
+            <li><a href="islemci.html">İşlemci</a> </li>
+            <li><a href="anakart.html">Anakart</a></li>
+            <li><a href="ram.html">Ram</a></li>
+            <li><a href="ssd.html">Ssd</a></li>
+            <li><a href="psu.html">Powersupply</a></li>
+            <li><a href="fan.html">Fan</a></li>
+            <li><a href="kasa.html">Kasa</a></li>
+        </ul>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:0px;margin-right:10px;" >AMD Uyumlu <br> 
+        <input type="checkbox"  style="margin-top:20px;margin-left:0px;margin-right:10px;margin-bottom: 50px;">INTEL Uyumlu<br>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >Asus <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >Gigabyte  <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >MSI <br>
+        <hr id="filtre">
+        <input type="checkbox"  style="margin-top:70px;margin-left:20px;margin-right:10px;" >LGA 1851 <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;" >LGA 1700 <br>
+        <input type="checkbox"  style="margin-top:20px;margin-left:20px;margin-right:10px;margin-bottom: 50px;" >AM5 <br>
+        <hr id="filtre">
+    </div>
+    <hr id="dikhr"style="height:4800px;">
+    <div class="dmenuuu">
+    <div class="dmenuu">
+    
+    
+    <div><hr id="dikhr"></div>
+    <div class="amdreklam"><a href="https://www.asus.com/tr/motherboards-components/motherboards/all-series/"target="_blank"><img src="Resimler/uzantılar/anakart-reklam.png"></a></div>
+
+</div>
+    <div class="icerik">
+    <div class="res">
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/A620/asus/b620m-k 1.png"width="220px" height="220"> <br><br>ASUS PRIME A620M-K 6400MHz OC DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart <br><br><br> <b>4.720,94 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/A620/gigabyte/b620m 1.png"width="220px" height="220"> <br><br>GIGABYTE A620M GAMING X AX 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart <br><br><br> <b>4.380,94 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/A620/msı/b620m-b 1.png"width="220px" height="220"> <br><br>MSI PRO A620M-B 6800MHz OC DDR5 Soket AM5 M.2 USB 3.2 HDMI mATX Anakart <br><br><br> <b> 4.459,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B650/asus/b650m-r 1.png"width="220px" height="220"> <br><br>ASUS PRIME B650M-R 7200MHz OC DDR5 Soket AM5 M.2 HDMI mATX Anakart <br><br><br> <b>5.776,94 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B650/gigabyte/b650 1.png"width="220px" height="220"> <br><br>GIGABYTE B650 GAMING WIFI6E 6400(OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart <br><br><br> <b>5.999,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B650/msı/b650m-p 1.png"width="220px" height="220"> <br><br>MSI PRO B650M-P 6000MHz(OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart <br><br><br> <b>7.101,08 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B840/asus/B840-PLUS 1.png"width="220px" height="220"> <br><br>ASUS PRIME B840-PLUS 6400MHz OC DDR5 Soket AM5 M.2 HDMI DP mATX Anakart <br><br><br> <b>10.379,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B840/gigabyte/B840M DS3H 1.png"width="220px" height="220"> <br><br>GIGABYTE B840M DS3H 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart <br><br><br> <b>9.578,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B840/msı/B840M 1.png"width="220px" height="220"> <br><br>MSI B840M 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart <br><br><br> <b>8.978,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B850/asus/B850M-A 1.png"width="220px" height="220"> <br><br>ASUS PRIME B850M-A 6400MHz OC DDR5 Soket AM5 M.2 HDMI DP mATX Anakart <br><br><br> <b>11.999,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B850/gigabyte/B850M 1.png"width="220px" height="220"> <br><br>GIGABYTE B850M 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart <br><br><br> <b>10.779,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/B850/msı/B850 1.png"width="220px" height="220"> <br><br>MSI B850 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart <br><br><br> <b>10.229,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/X670/asus/X670E-I 1.png"width="220px" height="220"> <br><br>ASUS ROG STRIX X670E-I GAMING WIFI 6400MHz OC DDR5 Soket AM5 M.2 HDMI Mını-ITX Anakart <br><br><br> <b>28.171,08 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/X670/msı/X670E 1.png"width="220px" height="220"> <br><br>MSI MAG X670E TOMAHAWK WIFI 6600MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart <br><br><br> <b>17.130,66 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/X870/asus/X870E 1.png"width="220px" height="220"> <br><br>ASUS ROG CROSSHAIR X870E EXTREME WIFI 9000MHz OC DDR5 Soket AM5 M.2 HDMI E-ATX Anakart <br><br><br> <b>61.930,91 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/X870/gigabyte/X870 1.png"width="220px" height="220"> <br><br>GIGABYTE X870 AORUS STEALTH ICE WIFI 8200MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart <br><br><br> <b>19.319,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/amd/X870/msı/X870E  1.png"width="220px" height="220"> <br><br>MSI X870E 8200MHz(OC) DDR5 Soket AM5 M.2 HDMI DP E-ATX Anakart <br><br><br> <b>19.319,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B660/asus/B660M-K 1.png"width="220px" height="220"> <br><br>ASUS B660M-K 6400MHz OC DDR5 Soket LGA1718 M.2 HDMI mATX Anakart <br><br><br> <b>4.799,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B660/msı/B660M 1.png"width="220px" height="220"> <br><br>MSI B660M 6400MHz(OC) DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>4.399,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B760/asus/B760M-A 1.png"width="220px" height="220"> <br><br>ASUS B760M-A 7200MHz OC DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>5.399,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B760/gigabyte/B760M DS3H 1.png"width="220px" height="220"> <br><br>GIGABYTE B760M DS3H 7200MHz(OC) DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>5.189,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B760/msı/B760 1.png"width="220px" height="220"> <br><br>MSI B760 7200MHz(OC) DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>5.499,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B860/asus/B860-A 1.png"width="220px" height="220"> <br><br>ASUS B860-A 6400MHz(OC) DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>10.499,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B860/gigabyte/B860M 1.png"width="220px" height="220"> <br><br>GIGABYTE B860M 6400MHz(OC) DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>5.499,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/B860/msı/B860-P 1.png"width="220px" height="220"> <br><br>MSI B860-P 6400MHz(OC) DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>9.499,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/H810/asus/H810M-A 1.png"width="220px" height="220"> <br><br>ASUS H810M-A 6400MHz(OC) DDR5 Soket LGA1718 M.2 HDMI DP mATX Anakart <br><br><br> <b>7.499,99 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/H810/gigabyte/H810M 1.png"width="220px" height="220"> <br><br>GIGABYTE H810M GAMING WIFI6 6400MHz OC DDR5 Soket 1851 M.2 HDMI DP mATX Anakart <br><br><br> <b>7.320,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/H810/msı/H810M-B 1.png"width="220px" height="220"> <br><br>MSI PRO H810M-B 6400MHz OC DDR5 Soket 1851 M.2 HDMI DP USB-C mATX Anakart <br><br><br> <b>5.569,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/Z790/asus/Z790-P 1.png"width="220px" height="220"> <br><br>ASUS PRIME Z790-P 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart <br><br><br> <b>14.080,18 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/Z790/gigabyte/Z790-D 1.png"width="220px" height="220"> <br><br>GIGABYTE Z790 D 5333MHz(OC) DDR4 Soket 1700 M.2 HDMI DP ATX Anakart <br><br><br> <b>13.499,65 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/Z790/msı/Z790 1.png"width="220px" height="220"> <br><br>MSI MAG Z790 TOMAHAWK WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart <br><br><br> <b>13.141,33 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/Z890/asus/Z890 1.png"width="220px" height="220"> <br><br>ASUS ROG MAXIMUS Z890 EXTREME 9200MHz OC WIFI 7 DDR5 Soket 1851 M.2 HDMI Thunderbolt 5 EATX Anakart <br><br><br> <b>58.669,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/Z890/gigabyte/Z890 1.png"width="220px" height="220"> <br><br>GIGABYTE Z890 AORUS MASTER 9500MHz OC Wi-Fi 7 DDR5 Soket 1851 M.2 HDMI Thunderbolt 4 ATX Anakart <br><br><br> <b>33.539,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        <div class="ekrankartları"><img src="Resimler/Anakart/intel/Z890/msı/Z890 1.png"width="220px" height="220"> <br><br>MSI MPG Z890 CARBON WIFI 9200MHz OC DDR5 Soket 1851 M.2 HDMI Thunderbolt 4 ATX Anakart <br><br><br> <b>30.888,00 TL</b> <div class="sepeteekle">Sepete Ekle</div></div>
+        </div>
+    </div></div></div>
+    <hr>
+ <div class="alt">
+        <div class="alt2"></div>
+        <div class="markalar">
+            <div><img src="Resimler/Marka logoları/asus.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/amd.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/corsair.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/gigabyte.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/intel.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/Kingston.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/msı.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/NVIDIA.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/samsung.png" height="100px"></div>
+        </div>
+        <hr style="background-color: #ffed00; height: 3px; border: #ffed00;">
+    </div>
+</body>
+</html>

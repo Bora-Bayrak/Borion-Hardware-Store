@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borion</title>
+    <link rel="icon" href="Resimler/logo.png">
+    <link rel="stylesheet" href="proje.css">
+
+    <style>
+.hakkimizda {
+    padding: 90px 20px;
+    background-color: #f6f7f9;
+}
+
+.hakkimizda-icerik {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+}
+
+.hakkimizda h1 {
+    font-size: 38px;
+    margin-bottom: 25px;
+    border-left: 6px solid #ffed00;
+    padding-left: 15px;
+}
+
+.hakkimizda h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.hakkimizda p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.hakkimizda-giris {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.hakkimizda ul {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.hakkimizda ul li {
+    margin-bottom: 10px;
+}
+
+.hakkimizda table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.hakkimizda table th,.hakkimizda table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.hakkimizda table th {
+    background-color: #ffed00;
+    color: #000;
+}
+
+.hakkimizda-imza {
+    margin-top: 50px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 17px;
+}
+</style>
+</head>
+<body>
+    <div class="ust">
+        <a href="index.html"><img src="Resimler/logo.png"width=100px ></a>
+        <div class="menu">
+        <ul>    
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="iletisim.html">İLETİŞİM</a></li>
+            <li><a href="donanimlar.html">DONANIMLAR</a>
+            <ul>
+                <li><a href="ekrankartları.html">EKRAN KARTI</a></li>
+                <li><a href="islemci.html">İŞLEMCİ</a></li>
+                <li><a href="ram.html">RAM</a></li>
+                <li><a href="anakart.html">ANAKART</a></li>
+                <li><a href="psu.html">PSU</a></li>
+                <li><a href="kasa.html">KASA</a></li>
+                <li><a href="ssd.html">SSD</a></li>
+                <li><a href="fan.html">FAN</a></li>
+            </ul>
+            </li>
+            <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+            <li><a href="#" onclick="gosterSepet(); return false;" style="position: relative; margin-left: 10px;">SEPET
+                <span class="sepet-sayaci" style="position: absolute; top: -5px; right: -10px; background-color: #ff0000; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold;">0</span>
+            </a></li>
+            <li><a href="#" onclick="hesapMenuAc(); return false;" style="position: relative; margin-left: 10px;">HESAP
+                <span id="kullanici-ad" style="position: absolute; bottom: -15px; left: 0; right: 0; text-align: center; font-size: 10px; color: #ffed00; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">Giriş Yap</span>
+            </a></li>
+        </ul>
+        </div>
+    </div>
+        <div class="hakkimizda">
+    <div class="hakkimizda-icerik">
+
+        <h1>Hakkımızda</h1>
+
+        <p class="hakkimizda-giris">
+            Borion, bilgisayar donanımları ve teknoloji alanında doğru, tarafsız ve
+            güncel bilgi sunmak amacıyla kurulmuş kurumsal bir dijital platformdur.
+        </p>
+
+        <p>
+            Günümüz teknolojisi hızla gelişirken, kullanıcıların güvenilir bilgiye
+            ulaşması her zamankinden daha önemli hale gelmiştir. Borion olarak hedefimiz;
+            karmaşık teknik detayları sade bir dille açıklamak, kullanıcıların bilinçli
+            tercihler yapmasını sağlamak ve teknoloji dünyasında güvenilir bir referans
+            noktası oluşturmaktır.
+        </p>
+
+        <p>
+            Platformumuzda ekran kartları, işlemciler, anakartlar, bellek çözümleri,
+            depolama birimleri ve soğutma sistemleri gibi birçok donanım bileşeni
+            hakkında kapsamlı içerikler sunulmaktadır. Tüm içeriklerimiz;
+            tarafsızlık, doğruluk ve güncellik ilkeleri doğrultusunda hazırlanmaktadır.
+        </p>
+
+        <h2>Temel Değerlerimiz</h2>
+        <ul>
+            <li>Şeffaf ve güvenilir bilgi sunmak</li>
+            <li>Kullanıcı deneyimini her zaman ön planda tutmak</li>
+            <li>Teknolojik gelişmeleri yakından takip etmek</li>
+            <li>Kurumsal etik ve kalite standartlarına bağlı kalmak</li>
+        </ul>
+
+        <h2>Hizmet Alanlarımız</h2>
+        <table>
+            <tr>
+                <th>Alan</th>
+                <th>Açıklama</th>
+            </tr>
+            <tr>
+                <td>Donanım Rehberleri</td>
+                <td>Bilgisayar bileşenleri hakkında detaylı ve anlaşılır içerikler</td>
+            </tr>
+            <tr>
+                <td>Karşılaştırmalar</td>
+                <td>Ürünlerin performans ve fiyat açısından objektif analizi</td>
+            </tr>
+            <tr>
+                <td>Teknik Bilgilendirme</td>
+                <td>Yeni teknolojiler ve güncel donanım trendleri</td>
+            </tr>
+            <tr>
+                <td>Kullanıcı Rehberleri</td>
+                <td>Doğru donanım seçimi için yol gösterici içerikler</td>
+            </tr>
+        </table>
+
+        <h2>Vizyonumuz</h2>
+        <p>
+            Türkiye’de teknoloji ve bilgisayar donanımı alanında en güvenilir
+            bilgi platformlarından biri olmak.
+        </p>
+
+        <h2>Misyonumuz</h2>
+        <ul>
+            <li>Kullanıcılara doğru ve güncel teknoloji bilgisi sunmak</li>
+            <li>Bilinçli donanım tercihlerini desteklemek</li>
+            <li>Kurumsal ve sürdürülebilir bir dijital yapı oluşturmak</li>
+        </ul>
+
+        <p class="hakkimizda-imza">
+            <img src="Resimler/logo.png" width="200px" style="margin-bottom: -40px;"> — Teknolojide güvenilir rehberiniz.
+        </p>
+
+    </div>
+</div>
+        <div class="alt">
+        <div class="alt2"></div>
+        <div class="markalar">
+            <div><img src="Resimler/Marka logoları/asus.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/amd.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/corsair.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/gigabyte.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/intel.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/Kingston.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/msı.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/NVIDIA.png" height="100px"></div>
+            <div><img src="Resimler/Marka logoları/samsung.png" height="100px"></div>
+        </div>
+        <hr style="background-color: #ffed00; height: 3px; border: #ffed00;">
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
